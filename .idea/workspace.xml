@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0182fa1-a225-4300-84c2-a3162cfd3fc4" name="Default Changelist" comment="Создан проект в PyCharm" />
+    <list default="true" id="c0182fa1-a225-4300-84c2-a3162cfd3fc4" name="Default Changelist" comment="env" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,7 +62,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595186698142</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="env">
+      <created>1595195161624</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1595195161624</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -79,12 +86,17 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Улучшено описание репозитория" />
     <MESSAGE value="Создан проект в PyCharm" />
-    <option name="LAST_COMMIT_MESSAGE" value="Создан проект в PyCharm" />
+    <MESSAGE value="env" />
+    <option name="LAST_COMMIT_MESSAGE" value="env" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1595186761362">
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1595195183902">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877/-2560.-429.2560.1440@0.23.1440.877" timestamp="1595186761362" />
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877/-2560.-429.2560.1440@0.23.1440.877" timestamp="1595195183902" />
+    <state x="508" y="382" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1595195017129">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="508" y="382" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.877/-2560.-429.2560.1440@0.23.1440.877" timestamp="1595195017129" />
   </component>
 </project>
