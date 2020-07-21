@@ -19,8 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0182fa1-a225-4300-84c2-a3162cfd3fc4" name="Default Changelist" comment="env">
-      <change afterPath="$PROJECT_DIR$/test_add_group.py" afterDir="false" />
+    <list default="true" id="c0182fa1-a225-4300-84c2-a3162cfd3fc4" name="Default Changelist" comment="test add">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/python_trening.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python_trening.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,8 +50,32 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Unittests in test_add_group.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="python_trening" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_add_group.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Unittests in test_add_group.py" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -97,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595195634884</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="test add">
+      <created>1595200569754</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1595200569754</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -116,9 +149,46 @@
     <MESSAGE value="Улучшено описание репозитория" />
     <MESSAGE value="Создан проект в PyCharm" />
     <MESSAGE value="env" />
-    <option name="LAST_COMMIT_MESSAGE" value="env" />
+    <MESSAGE value="test add" />
+    <option name="LAST_COMMIT_MESSAGE" value="test add" />
   </component>
   <component name="WindowStateProjectService">
+    <state width="1419" height="286" key="GridCell.Tab.0.bottom" timestamp="1595349851222">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1419" height="286" key="GridCell.Tab.0.bottom/0.23.1440.877/-2560.-540.2560.1440@0.23.1440.877" timestamp="1595349851222" />
+    <state width="1419" height="286" key="GridCell.Tab.0.center" timestamp="1595349851221">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1419" height="286" key="GridCell.Tab.0.center/0.23.1440.877/-2560.-540.2560.1440@0.23.1440.877" timestamp="1595349851221" />
+    <state width="1419" height="286" key="GridCell.Tab.0.left" timestamp="1595349851221">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1419" height="286" key="GridCell.Tab.0.left/0.23.1440.877/-2560.-540.2560.1440@0.23.1440.877" timestamp="1595349851221" />
+    <state width="1419" height="286" key="GridCell.Tab.0.right" timestamp="1595349851222">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1419" height="286" key="GridCell.Tab.0.right/0.23.1440.877/-2560.-540.2560.1440@0.23.1440.877" timestamp="1595349851222" />
+    <state width="1419" height="286" key="GridCell.Tab.1.bottom" timestamp="1595349851225">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1419" height="286" key="GridCell.Tab.1.bottom/0.23.1440.877/-2560.-540.2560.1440@0.23.1440.877" timestamp="1595349851225" />
+    <state width="1419" height="286" key="GridCell.Tab.1.center" timestamp="1595349851224">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1419" height="286" key="GridCell.Tab.1.center/0.23.1440.877/-2560.-540.2560.1440@0.23.1440.877" timestamp="1595349851224" />
+    <state width="1419" height="286" key="GridCell.Tab.1.left" timestamp="1595349851223">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1419" height="286" key="GridCell.Tab.1.left/0.23.1440.877/-2560.-540.2560.1440@0.23.1440.877" timestamp="1595349851223" />
+    <state width="1419" height="286" key="GridCell.Tab.1.right" timestamp="1595349851224">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1419" height="286" key="GridCell.Tab.1.right/0.23.1440.877/-2560.-540.2560.1440@0.23.1440.877" timestamp="1595349851224" />
+    <state x="221" y="100" key="SettingsEditor" timestamp="1595202775808">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="221" y="100" key="SettingsEditor/0.23.1440.877/-2560.-540.2560.1440@0.23.1440.877" timestamp="1595202775808" />
     <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1595195183902">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
