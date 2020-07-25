@@ -11,8 +11,8 @@ def app(request):
 
 
 def test_add_contact(app):
-        app.open_home_page()
-        app.login(username="admin", password="secret")
+        app.session.open_home_page()
+        app.session.login(username="admin", password="secret")
         app.create_new_contact(Contact(firstname="Name", middlename="Middle Name", lastname="Last Name",
                                         nickname="Nickname", title="Title", company="Company", address="Address",
                                         hometelephone="Hometelephone", mobiletelephone="mobiletelephone",
@@ -23,7 +23,7 @@ def test_add_contact(app):
                                         annmonth="March", annyear="1900", address_2="address 2", home_2="home 2",
                                         notes_2="notes 2"))
 
-        app.logout()
+        app.session.logout()
 
 
 if __name__ == "__main__":
