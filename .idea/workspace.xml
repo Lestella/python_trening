@@ -19,10 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0182fa1-a225-4300-84c2-a3162cfd3fc4" name="Default Changelist" comment="Выделены вспомогательные методы и классы">
-      <change afterPath="$PROJECT_DIR$/contact.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_add_contact.py" afterDir="false" />
+    <list default="true" id="c0182fa1-a225-4300-84c2-a3162cfd3fc4" name="Default Changelist" comment="Создание нового контакта">
+      <change afterPath="$PROJECT_DIR$/application.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_add_contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_add_contact.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_add_group.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_add_group.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +62,28 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_add_contact.TestAddContact">
+  <component name="RunManager" selected="Python tests.pytest in test_add_group.py">
+    <configuration name="application" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_trening" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/application.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="pytest for test_add_contact.TestAddContact" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="python_trening" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -75,22 +97,6 @@
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_add_contact.TestAddContact&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test_add_contact.TestAddContact.test_add_contact" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="python_trening" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_add_contact.TestAddContact.test_add_contact&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -110,7 +116,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_add_group.TestAddGroup.test_add_empty_group" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_add_group.test_add_empty_group" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="python_trening" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -122,11 +128,11 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_add_group.TestAddGroup.test_add_empty_group&quot;" />
+      <option name="_new_target" value="&quot;test_add_group.test_add_empty_group&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test_add_contact.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest in test_add_group.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="python_trening" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -138,17 +144,17 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_add_contact.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_add_group.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest for test_add_contact.TestAddContact" />
-        <item itemvalue="Python tests.pytest for test_add_contact.TestAddContact.test_add_contact" />
-        <item itemvalue="Python tests.pytest in test_add_contact.py" />
+        <item itemvalue="Python tests.pytest in test_add_group.py" />
+        <item itemvalue="Python.application" />
+        <item itemvalue="Python tests.pytest for test_add_group.test_add_empty_group" />
         <item itemvalue="Python tests.pytest for test_add_group.TestAddGroup" />
-        <item itemvalue="Python tests.pytest for test_add_group.TestAddGroup.test_add_empty_group" />
+        <item itemvalue="Python tests.pytest for test_add_contact.TestAddContact" />
       </list>
     </recent_temporary>
   </component>
@@ -219,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595366059610</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Создание нового контакта">
+      <created>1595450978637</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1595450978637</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -242,29 +255,34 @@
     <MESSAGE value="test add" />
     <MESSAGE value="Task 1" />
     <MESSAGE value="Выделены вспомогательные методы и классы" />
-    <option name="LAST_COMMIT_MESSAGE" value="Выделены вспомогательные методы и классы" />
+    <MESSAGE value="Создание нового контакта" />
+    <option name="LAST_COMMIT_MESSAGE" value="Создание нового контакта" />
   </component>
   <component name="WindowStateProjectService">
     <state x="592" y="170" key="#Code_Folding" timestamp="1595357077447">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="592" y="170" key="#Code_Folding/0.23.1440.877/-2560.-540.2560.1440@0.23.1440.877" timestamp="1595357077447" />
-    <state width="1419" height="231" key="GridCell.Tab.0.bottom" timestamp="1595450323688">
+    <state width="1419" height="231" key="GridCell.Tab.0.bottom" timestamp="1595692414977">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1419" height="231" key="GridCell.Tab.0.bottom/0.23.1440.877/-2560.-540.2560.1440@0.23.1440.877" timestamp="1595450323688" />
-    <state width="1419" height="231" key="GridCell.Tab.0.center" timestamp="1595450323687">
+    <state width="1419" height="231" key="GridCell.Tab.0.bottom/0.23.1440.877/-2560.-540.2560.1440@0.23.1440.877" timestamp="1595692414977" />
+    <state width="1419" height="231" key="GridCell.Tab.0.bottom/0.23.1440.877/4000.-540.2560.1440/1440.-540.2560.1440@0.23.1440.877" timestamp="1595488903594" />
+    <state width="1419" height="231" key="GridCell.Tab.0.center" timestamp="1595692414976">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1419" height="231" key="GridCell.Tab.0.center/0.23.1440.877/-2560.-540.2560.1440@0.23.1440.877" timestamp="1595450323687" />
-    <state width="1419" height="231" key="GridCell.Tab.0.left" timestamp="1595450323687">
+    <state width="1419" height="231" key="GridCell.Tab.0.center/0.23.1440.877/-2560.-540.2560.1440@0.23.1440.877" timestamp="1595692414976" />
+    <state width="1419" height="231" key="GridCell.Tab.0.center/0.23.1440.877/4000.-540.2560.1440/1440.-540.2560.1440@0.23.1440.877" timestamp="1595488903591" />
+    <state width="1419" height="231" key="GridCell.Tab.0.left" timestamp="1595692414974">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1419" height="231" key="GridCell.Tab.0.left/0.23.1440.877/-2560.-540.2560.1440@0.23.1440.877" timestamp="1595450323687" />
-    <state width="1419" height="231" key="GridCell.Tab.0.right" timestamp="1595450323688">
+    <state width="1419" height="231" key="GridCell.Tab.0.left/0.23.1440.877/-2560.-540.2560.1440@0.23.1440.877" timestamp="1595692414974" />
+    <state width="1419" height="231" key="GridCell.Tab.0.left/0.23.1440.877/4000.-540.2560.1440/1440.-540.2560.1440@0.23.1440.877" timestamp="1595488903591" />
+    <state width="1419" height="231" key="GridCell.Tab.0.right" timestamp="1595692414977">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1419" height="231" key="GridCell.Tab.0.right/0.23.1440.877/-2560.-540.2560.1440@0.23.1440.877" timestamp="1595450323688" />
+    <state width="1419" height="231" key="GridCell.Tab.0.right/0.23.1440.877/-2560.-540.2560.1440@0.23.1440.877" timestamp="1595692414977" />
+    <state width="1419" height="231" key="GridCell.Tab.0.right/0.23.1440.877/4000.-540.2560.1440/1440.-540.2560.1440@0.23.1440.877" timestamp="1595488903593" />
     <state width="1419" height="286" key="GridCell.Tab.1.bottom" timestamp="1595349851225">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -289,11 +307,11 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="221" y="100" key="SettingsEditor/0.23.1440.877/-2560.-540.2560.1440@0.23.1440.877" timestamp="1595350901910" />
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1595366082760">
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1595451035154">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877/-2560.-429.2560.1440@0.23.1440.877" timestamp="1595195183902" />
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877/-2560.-540.2560.1440@0.23.1440.877" timestamp="1595366082760" />
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877/-2560.-540.2560.1440@0.23.1440.877" timestamp="1595451035154" />
     <state x="508" y="382" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1595195017129">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
