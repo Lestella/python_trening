@@ -8,7 +8,10 @@ class Application:
 
     def __init__(self):
         self.wd = WebDriver()
+        self.wd.maximize_window()
         self.wd.implicity_wait(60)
+        self.verificationErrors = []
+        self.accept_next_alert = True
         self.session = SessionHelper(self)
         self.group = GroupHelper(self)
         self.contact = ContactHelper(self)

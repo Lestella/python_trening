@@ -1,4 +1,7 @@
 from selenium.webdriver.support.select import Select
+from selenium.common.exceptions import NoSuchElementException
+from selenium.common.exceptions import NoAlertPresentException
+import time
 
 
 class ContactHelper:
@@ -75,3 +78,12 @@ class ContactHelper:
         wd.find_element_by_name("notes").clear()
         wd.find_element_by_name("notes").send_keys(contact.notes_2)
         wd.find_element_by_xpath("(//input[@name='submit'])[2]").click()
+
+    def test_delete_first_contact(self):
+        wd = self.app.wd
+        wd.find_element_by_name("selected[]").click()
+        wd.find_element_by_xpath("//input[@value='Delete']").click()
+        #time.sleep(3)
+        wd.switch_to_alert().accept()
+
+
