@@ -12,7 +12,7 @@ class Application:
         self.wd = WebDriver()
         #self.wd = webdriver.Chrome()
         self.wd.maximize_window()
-        self.wd.implicity_wait(60)
+        self.wd.implicitly_wait(60)
         self.session = SessionHelper(self)
         self.group = GroupHelper(self)
         self.contact = ContactHelper(self)

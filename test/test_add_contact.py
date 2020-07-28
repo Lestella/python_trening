@@ -15,7 +15,3 @@ def test_add_contact(app):
                                            notes_2="notes 2"))
 
     app.session.logout()
-
-
-if __name__ == "__main__":
-    unittest.main()
