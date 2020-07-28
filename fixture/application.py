@@ -1,3 +1,5 @@
+from selenium.webdriver.chrome import webdriver
+from selenium import webdriver
 from selenium.webdriver.firefox.webdriver import WebDriver
 from selenium.webdriver.support.ui import Select
 from fixture.session import SessionHelper
@@ -8,10 +10,9 @@ class Application:
 
     def __init__(self):
         self.wd = WebDriver()
+        #self.wd = webdriver.Chrome()
         self.wd.maximize_window()
         self.wd.implicity_wait(60)
-        self.verificationErrors = []
-        self.accept_next_alert = True
         self.session = SessionHelper(self)
         self.group = GroupHelper(self)
         self.contact = ContactHelper(self)
