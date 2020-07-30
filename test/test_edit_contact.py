@@ -1,9 +1,9 @@
 from model.contact import Contact
 
 
-def test_edit_contact(app):
+def test_edit_first_contact(app):
     app.session.login(username="admin", password="secret")
-    app.contact.create_new_contact(
+    app.contact.test_edit_first_contact(
         Contact(firstname="Name_new", middlename="Middle Name_new", lastname="Last Name__new",
                 nickname="Nickname_new", title="Title_new", company="Company_new", address="Address_new",
                 hometelephone="Hometelephone_new", mobiletelephone="mobiletelephone_new",
