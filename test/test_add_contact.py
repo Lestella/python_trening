@@ -13,3 +13,4 @@ def test_add_contact(app):
                                            annmonth="March", annyear="1900", address_2="address 2", home_2="home 2",
                                            notes_2="notes 2"))
 
+
