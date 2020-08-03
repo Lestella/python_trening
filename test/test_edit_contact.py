@@ -1,17 +1,14 @@
 from model.contact import Contact
 
 
-def test_edit_first_contact(app):
+def test_edit_first_contact_firstname(app):
     app.session.login(username="admin", password="secret")
     app.contact.test_edit_first_contact(
-        Contact(firstname="Name_new", middlename="Middle Name_new", lastname="Last Name__new",
-                nickname="Nickname_new", title="Title_new", company="Company_new", address="Address_new",
-                hometelephone="Hometelephone_new", mobiletelephone="mobiletelephone_new",
-                worktelephone="worktelephone_new", fax="fax_new", email_1="email1_new", email_2="email2_new",
-                email_3="email3_new",
-                homepage="homepage_new", birthday="9", birthmonth="July", birthyear="1908",
-                annday="5",
-                annmonth="September", annyear="1990", address_2="address 2_new", home_2="home 2_new",
-                notes_2="notes 2_new"))
-
+        Contact(firstname="Name_new_1"))
     app.session.logout()
+
+def test_edit_first_contact_middlename(app):
+        app.session.login(username="admin", password="secret")
+        app.contact.test_edit_first_contact(
+            Contact(middlename="Middle Name_new_2"))
+        app.session.logout()
