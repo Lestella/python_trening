@@ -58,7 +58,7 @@ class ContactHelper:
         wd = self.app.wd
         self.app.open_home_page()
         wd.find_element_by_name("selected[]").click()
-        wd.find_element_by_xpath("(//img[@alt='Edit'])[2]").click()
+        wd.find_element_by_xpath("(//img[@alt='Edit'])").click()
         self.fill_contact_form(new_contact_data)
         wd.find_element_by_xpath("(//input[@name='update'])[2]").click()
 
@@ -66,5 +66,15 @@ class ContactHelper:
         wd = self.app.wd
         self.app.open_home_page()
         wd.find_element_by_name("selected[]").click()
+        wd.find_element_by_xpath("//input[@value='Delete']").click()
+        wd.switch_to_alert().accept()
+
+    def count_contacts(self):
+        wd = self.app.wd
+        return len(wd.find_elements_by_name("selected[]"))
+
+    def clear_all_contacts(self):
+        wd = self.app.wd
+        wd.find_element_by_id("MassCB").click()
         wd.find_element_by_xpath("//input[@value='Delete']").click()
         wd.switch_to_alert().accept()
