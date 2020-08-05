@@ -9,7 +9,7 @@ class Application:
     def __init__(self):
         self.wd = WebDriver()
         self.wd.maximize_window()
-        self.wd.implicitly_wait(5)
+        self.wd.implicitly_wait(3)
         self.session = SessionHelper(self)
         self.group = GroupHelper(self)
         self.contact = ContactHelper(self)
@@ -23,7 +23,8 @@ class Application:
 
     def open_home_page(self):
         wd = self.wd
-        wd.get("http://192.168.64.2/addressbook/index.php")
+        if not (wd.current_url.endswith("/index.php") and len(wd.find_elements_by_name("add")) > 0):
+            wd.get("http://192.168.64.2/addressbook/index.php")
 
     def destroy(self):
         self.wd.quit()
