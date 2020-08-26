@@ -7,7 +7,7 @@ def test_del_group(app):
         app.group.create(Group(name="Name For Delete"))
     old_groups = app.group.get_group_list()
     index = randrange(len(old_groups))
-    print(index)
+    # print(index)
     app.group.delete_group_by_index(index)
     assert len(old_groups) - 1 == app.group.count_groups()
     new_groups = app.group.get_group_list()
