@@ -1,6 +1,5 @@
 from model.contact import Contact
 from random import randrange
-import time
 
 
 def test_del_contact(app):
