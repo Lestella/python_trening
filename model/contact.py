@@ -3,11 +3,14 @@ from sys import maxsize
 
 class Contact:
 
-    def __init__(self, firstname=None, middlename=None, lastname=None, nickname=None, title=None, company=None,
-                 address=None, hometelephone=None, mobiletelephone=None, worktelephone=None,
-                 fax=None, email_1=None, email_2=None, email_3=None, homepage=None, birthday=None, birthmonth=None,
-                 birthyear=None, annday=None, annmonth=None, annyear=None, address_2=None, home_2=None, notes_2=None,
-                 id=None):
+    def __init__(self, firstname=None, middlename=None, lastname=None,
+                 homephone=None, mobilephone=None, workphone=None, secondaryphone=None,
+                 nickname=None, title=None, company=None, address=None,
+                 fax=None, email_1=None, email_2=None, email_3=None,
+                 homepage=None, birthday=None, birthmonth=None,
+                 birthyear=None, annday=None, annmonth=None,
+                 annyear=None, address_2=None, notes_2=None,
+                 id=None, all_phones_from_home_page=None, all_phones_from_view_page=None):
         self.firstname = firstname
         self.middlename = middlename
         self.lastname = lastname
@@ -15,9 +18,10 @@ class Contact:
         self.title = title
         self.company = company
         self.address = address
-        self.hometelephone = hometelephone
-        self.mobiletelephone = mobiletelephone
-        self.worktelephone = worktelephone
+        self.homephone = homephone
+        self.mobilephone = mobilephone
+        self.workphone = workphone
+        self.secondaryphone = secondaryphone
         self.fax = fax
         self.email_1 = email_1
         self.email_2 = email_2
@@ -30,9 +34,10 @@ class Contact:
         self.annmonth = annmonth
         self.annyear = annyear
         self.address_2 = address_2
-        self.home_2 = home_2
         self.notes_2 = notes_2
         self.id = id
+        self.all_phones_from_home_page = all_phones_from_home_page
+        self.all_phones_from_view_page = all_phones_from_view_page
 
     def __repr__(self):
         return "%s:%s:%s" % (self.id, self.firstname, self.lastname)
