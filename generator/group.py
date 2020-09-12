@@ -33,9 +33,9 @@ testdata = [Group(name="", header="", footer="")] + [
     Group(name=random_string("name", 10), header=random_string("header", 20), footer=random_string("footer", 20))
     for i in range(n)
 ]
-print("f", f)
+
 file = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", f)
-print(">>>>>>>>>>>>>>>>>f", os.path.dirname(os.path.abspath(__file__)), "..", f)
+
 
 with open(file, "w") as out:
     jsonpickle.set_encoder_options("json", indent=2)
