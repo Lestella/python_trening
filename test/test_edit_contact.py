@@ -2,12 +2,12 @@ from model.contact import Contact
 from random import randrange
 
 
-def test_edit_contact(app):
+def test_edit_contact(app, json_contacts):
     if app.contact.count_contacts() == 0:
         app.contact.create_new_contact(Contact(firstname="Firstname for edit", lastname="Lastname for edit"))
     old_contacts = app.contact.get_contact_list()
     index = randrange(len(old_contacts))
-    contact = Contact(firstname="Edited Firstname")
+    contact = json_contacts
     contact.id = old_contacts[index].id
     contact.lastname = old_contacts[index].lastname
     app.contact.edit_contact_by_index(index, contact)
