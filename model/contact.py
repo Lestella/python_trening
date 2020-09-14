@@ -43,9 +43,9 @@ class Contact:
         self.all_main_info_from_home_page = all_main_info_from_home_page
 
     def __repr__(self):
-        return "%s:%s:%s:%s:%s:%s:%s:%s" % (self.id, self.firstname, self.lastname,
-                                      self.middlename, self.nickname, self.title,
-                                      self.company, self.address)
+        return "%s:%s:%s:%s:%s:%s:%s:%s:%s:%s:%s" % (self.id, self.firstname, self.lastname,
+                                      self.address, self.homephone, self.mobilephone,
+                                      self.workphone, self.secondaryphone, self.email_1, self.email_2, self.email_3)
 
     def __eq__(self, other):
         return (self.id is None or other.id is None or self.id == other.id) and self.firstname == other.firstname and self.lastname == other.lastname
