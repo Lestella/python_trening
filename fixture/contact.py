@@ -210,3 +210,5 @@ class ContactHelper:
         secondaryphone = re.search("P: (.*)", text).group(1)
         all_phones_view_page = "\n".join((homephone, mobilephone, workphone, secondaryphone))
         return Contact(all_phones_from_view_page=all_phones_view_page)
+
+    # def add_contact_to_group_by_id(self,):
