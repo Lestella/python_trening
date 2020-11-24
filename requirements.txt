@@ -5,5 +5,3 @@ jsonpickle
 pony
 pymysql
 mysql-connector-python-rf
-os
-os.path
