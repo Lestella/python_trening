@@ -19,10 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0182fa1-a225-4300-84c2-a3162cfd3fc4" name="Default Changelist" comment="screens">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-    </list>
+    <list default="true" id="c0182fa1-a225-4300-84c2-a3162cfd3fc4" name="Default Changelist" comment="req allure" />
     <list id="6c019c57-68e4-4c96-85ab-350db2b8ee7f" name="Revert &quot;Тесты для проверки информации о контактах на главной странице&quot;" comment="Revert &quot;Тесты для проверки информации о контактах на главной странице&quot;&#10;&#10;This reverts commit 9e210be5">
       <change beforePath="$PROJECT_DIR$/data/contacts.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/contacts.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fixture/contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/contact.py" afterDir="false" />
@@ -183,13 +180,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1595186380059</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Task 1">
-      <created>1595350453007</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1595350453007</updated>
     </task>
     <task id="LOCAL-00008" summary="Выделены вспомогательные методы и классы">
       <created>1595366059610</created>
@@ -527,7 +517,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606264835675</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="req allure">
+      <created>1606329406987</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1606329406987</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -547,7 +544,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Добавлено ожидание сообщения об удаленном контакте в метод удаления" />
     <MESSAGE value="Исправлено модифицирование контакта и неиспользуемые части кода" />
     <MESSAGE value="Добавлены обратные проверки для сравнения телефонов на страницах редактирования контакта, домашней странице и страницу просмотра" />
     <MESSAGE value="Добавлено сравнение мэилов" />
@@ -572,7 +568,8 @@
     <MESSAGE value="groups.json" />
     <MESSAGE value="exc path" />
     <MESSAGE value="screens" />
-    <option name="LAST_COMMIT_MESSAGE" value="screens" />
+    <MESSAGE value="req allure" />
+    <option name="LAST_COMMIT_MESSAGE" value="req allure" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="125" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600028064795">
@@ -655,10 +652,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="221" y="100" key="SettingsEditor/0.23.1440.877/-2560.-540.2560.1440@0.23.1440.877" timestamp="1606326744685" />
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1606264843798">
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1606329444446">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877/-2560.-540.2560.1440@0.23.1440.877" timestamp="1606264843798" />
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877/-2560.-540.2560.1440@0.23.1440.877" timestamp="1606329444446" />
     <state x="-1015" y="327" width="1015" height="573" key="dock-window-1" timestamp="1605994859233">
       <screen x="-2560" y="-540" width="2560" height="1440" />
     </state>
