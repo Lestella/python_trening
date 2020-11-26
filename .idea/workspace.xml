@@ -20,7 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c0182fa1-a225-4300-84c2-a3162cfd3fc4" name="Default Changelist" comment="allure steps add group">
-      <change beforePath="$PROJECT_DIR$/test/test_add_group.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_add_group.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rf/AddressBook.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rf/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rf/group_scenarios.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <list id="6c019c57-68e4-4c96-85ab-350db2b8ee7f" name="Revert &quot;Тесты для проверки информации о контактах на главной странице&quot;" comment="Revert &quot;Тесты для проверки информации о контактах на главной странице&quot;&#10;&#10;This reverts commit 9e210be5">
       <change beforePath="$PROJECT_DIR$/data/contacts.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/contacts.json" afterDir="false" />
@@ -182,13 +189,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1595186380059</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Создание нового контакта">
-      <created>1595450978637</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1595450978637</updated>
     </task>
     <task id="LOCAL-00010" summary="Создание фикстуры и перевод на pytest для создания группы">
       <created>1595705616278</created>
@@ -526,7 +526,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606336970065</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="allure steps add group">
+      <created>1606337401955</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1606337401955</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -578,10 +585,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="361" y="125" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877/-2560.-540.2560.1440@0.23.1440.877" timestamp="1600028064795" />
-    <state x="414" y="270" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605910836198">
+    <state x="414" y="270" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606339573503">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="414" y="270" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.877/-2560.-540.2560.1440@0.23.1440.877" timestamp="1605910836198" />
+    <state x="414" y="270" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.877/-2560.-540.2560.1440@0.23.1440.877" timestamp="1606339573503" />
     <state x="684" y="187" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1599928516603">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -594,35 +601,35 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="271" y="34" key="CommitChangelistDialog2/0.23.1440.877/-2560.-540.2560.1440@0.23.1440.877" timestamp="1600113742631" />
-    <state width="1257" height="257" key="GridCell.Tab.0.bottom" timestamp="1606326165401">
+    <state width="1257" height="257" key="GridCell.Tab.0.bottom" timestamp="1606339775193">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1419" height="285" key="GridCell.Tab.0.bottom/0.23.1440.877/-2560.-540.2560.1440@-2560.-540.2560.1440" timestamp="1604937482556" />
-    <state width="1257" height="257" key="GridCell.Tab.0.bottom/0.23.1440.877/-2560.-540.2560.1440@0.23.1440.877" timestamp="1606326165401" />
+    <state width="1257" height="257" key="GridCell.Tab.0.bottom/0.23.1440.877/-2560.-540.2560.1440@0.23.1440.877" timestamp="1606339775193" />
     <state width="1419" height="144" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.-540.2560.1440/4000.-540.2560.1440@0.23.1440.877" timestamp="1600326120273" />
     <state width="2539" height="442" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.-540.2560.1440/4000.-540.2560.1440@1440.-540.2560.1440" timestamp="1600088024648" />
     <state width="1419" height="246" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1598547135310" />
-    <state width="1257" height="257" key="GridCell.Tab.0.center" timestamp="1606326165400">
+    <state width="1257" height="257" key="GridCell.Tab.0.center" timestamp="1606339775192">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1419" height="285" key="GridCell.Tab.0.center/0.23.1440.877/-2560.-540.2560.1440@-2560.-540.2560.1440" timestamp="1604937482555" />
-    <state width="1257" height="257" key="GridCell.Tab.0.center/0.23.1440.877/-2560.-540.2560.1440@0.23.1440.877" timestamp="1606326165400" />
+    <state width="1257" height="257" key="GridCell.Tab.0.center/0.23.1440.877/-2560.-540.2560.1440@0.23.1440.877" timestamp="1606339775192" />
     <state width="1419" height="144" key="GridCell.Tab.0.center/0.23.1440.877/1440.-540.2560.1440/4000.-540.2560.1440@0.23.1440.877" timestamp="1600326120270" />
     <state width="2539" height="442" key="GridCell.Tab.0.center/0.23.1440.877/1440.-540.2560.1440/4000.-540.2560.1440@1440.-540.2560.1440" timestamp="1600088024647" />
     <state width="1419" height="246" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1598547135306" />
-    <state width="1257" height="257" key="GridCell.Tab.0.left" timestamp="1606326165400">
+    <state width="1257" height="257" key="GridCell.Tab.0.left" timestamp="1606339775189">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1419" height="285" key="GridCell.Tab.0.left/0.23.1440.877/-2560.-540.2560.1440@-2560.-540.2560.1440" timestamp="1604937482555" />
-    <state width="1257" height="257" key="GridCell.Tab.0.left/0.23.1440.877/-2560.-540.2560.1440@0.23.1440.877" timestamp="1606326165400" />
+    <state width="1257" height="257" key="GridCell.Tab.0.left/0.23.1440.877/-2560.-540.2560.1440@0.23.1440.877" timestamp="1606339775189" />
     <state width="1419" height="144" key="GridCell.Tab.0.left/0.23.1440.877/1440.-540.2560.1440/4000.-540.2560.1440@0.23.1440.877" timestamp="1600326120269" />
     <state width="2539" height="442" key="GridCell.Tab.0.left/0.23.1440.877/1440.-540.2560.1440/4000.-540.2560.1440@1440.-540.2560.1440" timestamp="1600088024646" />
     <state width="1419" height="246" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1598547135306" />
-    <state width="1257" height="257" key="GridCell.Tab.0.right" timestamp="1606326165401">
+    <state width="1257" height="257" key="GridCell.Tab.0.right" timestamp="1606339775192">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1419" height="285" key="GridCell.Tab.0.right/0.23.1440.877/-2560.-540.2560.1440@-2560.-540.2560.1440" timestamp="1604937482556" />
-    <state width="1257" height="257" key="GridCell.Tab.0.right/0.23.1440.877/-2560.-540.2560.1440@0.23.1440.877" timestamp="1606326165401" />
+    <state width="1257" height="257" key="GridCell.Tab.0.right/0.23.1440.877/-2560.-540.2560.1440@0.23.1440.877" timestamp="1606339775192" />
     <state width="1419" height="144" key="GridCell.Tab.0.right/0.23.1440.877/1440.-540.2560.1440/4000.-540.2560.1440@0.23.1440.877" timestamp="1600326120272" />
     <state width="2539" height="442" key="GridCell.Tab.0.right/0.23.1440.877/1440.-540.2560.1440/4000.-540.2560.1440@1440.-540.2560.1440" timestamp="1600088024647" />
     <state width="1419" height="246" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1598547135307" />
@@ -654,10 +661,14 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="221" y="100" key="SettingsEditor/0.23.1440.877/-2560.-540.2560.1440@0.23.1440.877" timestamp="1606326744685" />
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1606336974181">
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1606337406759">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877/-2560.-540.2560.1440@0.23.1440.877" timestamp="1606336974181" />
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877/-2560.-540.2560.1440@0.23.1440.877" timestamp="1606337406759" />
+    <state x="518" y="382" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606338560198">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="518" y="382" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.877/-2560.-540.2560.1440@0.23.1440.877" timestamp="1606338560198" />
     <state x="-1015" y="327" width="1015" height="573" key="dock-window-1" timestamp="1605994859233">
       <screen x="-2560" y="-540" width="2560" height="1440" />
     </state>
