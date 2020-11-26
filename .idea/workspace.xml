@@ -20,14 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c0182fa1-a225-4300-84c2-a3162cfd3fc4" name="Default Changelist" comment="allure steps add group">
-      <change afterPath="$PROJECT_DIR$/log.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rf/AddressBook.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rf/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rf/group_scenarios.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rf/contact_scenarios.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log.html" beforeDir="false" afterPath="$PROJECT_DIR$/log.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/output.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rf/AddressBook.py" beforeDir="false" afterPath="$PROJECT_DIR$/rf/AddressBook.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rf/group_scenarios.robot" beforeDir="false" afterPath="$PROJECT_DIR$/rf/group_scenarios.robot" afterDir="false" />
     </list>
     <list id="6c019c57-68e4-4c96-85ab-350db2b8ee7f" name="Revert &quot;Тесты для проверки информации о контактах на главной странице&quot;" comment="Revert &quot;Тесты для проверки информации о контактах на главной странице&quot;&#10;&#10;This reverts commit 9e210be5">
       <change beforePath="$PROJECT_DIR$/data/contacts.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/contacts.json" afterDir="false" />
@@ -189,13 +188,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1595186380059</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Создание фикстуры и перевод на pytest для создания группы">
-      <created>1595705616278</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1595705616278</updated>
     </task>
     <task id="LOCAL-00011" summary="Создание фикстуры и перевод на pytest для создания контакта">
       <created>1595706997640</created>
@@ -533,7 +525,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606337401955</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="allure steps add group">
+      <created>1606378384125</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1606378384134</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -661,18 +660,22 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="221" y="100" key="SettingsEditor/0.23.1440.877/-2560.-540.2560.1440@0.23.1440.877" timestamp="1606326744685" />
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1606337406759">
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1606378402598">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877/-2560.-540.2560.1440@0.23.1440.877" timestamp="1606337406759" />
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877/-2560.-540.2560.1440@0.23.1440.877" timestamp="1606378402598" />
     <state x="518" y="382" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606338560198">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="518" y="382" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.877/-2560.-540.2560.1440@0.23.1440.877" timestamp="1606338560198" />
-    <state x="-1015" y="327" width="1015" height="573" key="dock-window-1" timestamp="1605994859233">
+    <state x="319" y="147" width="992" height="579" key="dock-window-1" timestamp="1606408825393">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="319" y="147" width="992" height="579" key="dock-window-1/0.23.1440.877/-2560.-540.2560.1440@0.23.1440.877" timestamp="1606408825393" />
+    <state x="-1448" y="58" width="992" height="579" key="dock-window-2" timestamp="1606409554846">
       <screen x="-2560" y="-540" width="2560" height="1440" />
     </state>
-    <state x="-1015" y="327" width="1015" height="573" key="dock-window-1/0.23.1440.877/-2560.-540.2560.1440@0.23.1440.877" timestamp="1605994859233" />
+    <state x="-1448" y="58" width="992" height="579" key="dock-window-2/0.23.1440.877/-2560.-540.2560.1440@0.23.1440.877" timestamp="1606409554846" />
     <state x="385" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1599919675219">
       <screen x="0" y="23" width="1440" height="877" />
     </state>

@@ -1,45 +1,474 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 3.2.2 (Python 3.8.3 on darwin)" generated="20201126 10:11:04.971" rpa="false">
+<robot generator="Robot 3.2.2 (Python 3.8.3 on darwin)" generated="20201126 18:56:14.543" rpa="false">
 <suite id="s1" name="Group Scenarios" source="/Users/v.rehemae/PycharmProjects/python_trening/rf/group_scenarios.robot">
-<kw name="Init Fixtures" type="setup">
-<msg timestamp="20201126 10:11:05.013" level="FAIL">No keyword with name 'Init Fixtures' found.</msg>
-<status status="FAIL" starttime="20201126 10:11:05.013" endtime="20201126 10:11:05.013"></status>
+<kw name="Init Fixtures" library="rf.AddressBook" type="setup">
+<status status="PASS" starttime="20201126 18:56:14.936" endtime="20201126 18:56:21.521"></status>
 </kw>
 <test id="s1-t1" name="Add new group">
-<status status="FAIL" starttime="20201126 10:11:05.013" endtime="20201126 10:11:05.014" critical="yes">Parent suite setup failed:
-No keyword with name 'Init Fixtures' found.</status>
-</test>
-<kw name="Destroy Fixtures" type="teardown">
-<msg timestamp="20201126 10:11:05.017" level="FAIL">No keyword with name 'Destroy Fixtures' found.</msg>
-<status status="FAIL" starttime="20201126 10:11:05.017" endtime="20201126 10:11:05.017">No keyword with name 'Destroy Fixtures' found.</status>
+<kw name="Get Group List" library="rf.AddressBook">
+<assign>
+<var>${old_list}</var>
+</assign>
+<msg timestamp="20201126 18:56:21.524" level="INFO">(500, 'For Add a Contact', 'For Add a Contact', '')
+(502, 'name rmzJk7', 'header5JIdj', 'footere  s3CsAYTKTfz')
+(503, 'namemV La h', 'headerXIU7MPxwMO', 'footerBO1N19Ea7')
+(504, 'nameXs', 'header EM', 'footer6sC dGnsE')
+(507, 'Edited Group', 'headerb', 'footerdtGL  9Lc mrEL ')
+(508, 'name 4C4 0', 'headerA6Jav 14fVh CZt', 'footer7r  ')
+(509, 'name', 'header7Ooce6OEfCzu', 'footerYZkMK W')
+(510, 'nameY 5 X6a m', 'headersb 8k ZHUVL ekV', 'footerSJWYGtU1Fodry  q')
+(511, 'name', 'header ', 'footert APtnqU Ibl N')
+(512, 'name1', 'header1', 'footer1')
+(513, 'name2', 'header2', 'footer2')
+(514, 'name1', 'header1', 'footer1')
+(515, 'name2', 'header2', 'footer2')
+(517, 'name2', 'header2', 'footer2')
+(518, 'name1', 'header1', 'footer1')
+(520, 'name1', 'header1', 'footer1')
+(521, 'name2', 'header2', 'footer2')
+(522, 'name1', 'header1', 'footer1')
+(523, 'name2', 'header2', 'footer2')
+(524, 'name1', 'header1', 'footer1')
+(525, 'name1', 'header1', 'footer1')
+(526, '', '', '')
+(527, 'name rmzJk7', 'header5JIdj', 'footere  s3CsAYTKTfz')
+(528, 'namemV La h', 'headerXIU7MPxwMO', 'footerBO1N19Ea7')
+(529, 'nameXs', 'header EM', 'footer6sC dGnsE')
+(530, 'namel', 'headerhkm G03AR538G9R', 'footerx Iat SSzQeekkuK39 ')
+(531, 'nameTwmWRS0 Z', 'headerZ XKJ1', 'footerw4xBTz4Cw 4bD')
+(532, 'name1', 'header1', 'footer1')
+(534, 'name1', 'header1', 'footer1')
+(535, 'name', 'header ', 'footert APtnqU Ibl N')
+(536, 'name1', 'header 1', 'footer1')
+(537, 'name1', 'header 1', 'footer1')
+(539, 'name', 'header', 'footer')
+(540, 'name', 'header', 'footer')
+(541, 'name', 'header', 'footer')
+(542, 'name', 'header', 'footer')
+(543, 'name', 'header', 'footer')
+(544, 'name', 'header', 'footer')</msg>
+<msg timestamp="20201126 18:56:21.524" level="INFO">${old_list} = [500:For Add a Contact:For Add a Contact:, 502:name rmzJk7:header5JIdj:footere  s3CsAYTKTfz, 503:namemV La h:headerXIU7MPxwMO:footerBO1N19Ea7, 504:nameXs:header EM:footer6sC dGnsE, 507:Edited Group:he...</msg>
+<status status="PASS" starttime="20201126 18:56:21.522" endtime="20201126 18:56:21.524"></status>
 </kw>
-<status status="FAIL" starttime="20201126 10:11:04.972" endtime="20201126 10:11:05.017">Suite setup failed:
-No keyword with name 'Init Fixtures' found.
-
-Also suite teardown failed:
-No keyword with name 'Destroy Fixtures' found.</status>
+<kw name="New Group" library="rf.AddressBook">
+<arguments>
+<arg>name</arg>
+<arg>header</arg>
+<arg>footer</arg>
+</arguments>
+<assign>
+<var>${group}</var>
+</assign>
+<msg timestamp="20201126 18:56:21.525" level="INFO">${group} = None:name:header:footer</msg>
+<status status="PASS" starttime="20201126 18:56:21.524" endtime="20201126 18:56:21.525"></status>
+</kw>
+<kw name="Create Group" library="rf.AddressBook">
+<arguments>
+<arg>${group}</arg>
+</arguments>
+<status status="PASS" starttime="20201126 18:56:21.525" endtime="20201126 18:56:22.349"></status>
+</kw>
+<kw name="Get Group List" library="rf.AddressBook">
+<assign>
+<var>${new_list}</var>
+</assign>
+<msg timestamp="20201126 18:56:22.351" level="INFO">(500, 'For Add a Contact', 'For Add a Contact', '')
+(502, 'name rmzJk7', 'header5JIdj', 'footere  s3CsAYTKTfz')
+(503, 'namemV La h', 'headerXIU7MPxwMO', 'footerBO1N19Ea7')
+(504, 'nameXs', 'header EM', 'footer6sC dGnsE')
+(507, 'Edited Group', 'headerb', 'footerdtGL  9Lc mrEL ')
+(508, 'name 4C4 0', 'headerA6Jav 14fVh CZt', 'footer7r  ')
+(509, 'name', 'header7Ooce6OEfCzu', 'footerYZkMK W')
+(510, 'nameY 5 X6a m', 'headersb 8k ZHUVL ekV', 'footerSJWYGtU1Fodry  q')
+(511, 'name', 'header ', 'footert APtnqU Ibl N')
+(512, 'name1', 'header1', 'footer1')
+(513, 'name2', 'header2', 'footer2')
+(514, 'name1', 'header1', 'footer1')
+(515, 'name2', 'header2', 'footer2')
+(517, 'name2', 'header2', 'footer2')
+(518, 'name1', 'header1', 'footer1')
+(520, 'name1', 'header1', 'footer1')
+(521, 'name2', 'header2', 'footer2')
+(522, 'name1', 'header1', 'footer1')
+(523, 'name2', 'header2', 'footer2')
+(524, 'name1', 'header1', 'footer1')
+(525, 'name1', 'header1', 'footer1')
+(526, '', '', '')
+(527, 'name rmzJk7', 'header5JIdj', 'footere  s3CsAYTKTfz')
+(528, 'namemV La h', 'headerXIU7MPxwMO', 'footerBO1N19Ea7')
+(529, 'nameXs', 'header EM', 'footer6sC dGnsE')
+(530, 'namel', 'headerhkm G03AR538G9R', 'footerx Iat SSzQeekkuK39 ')
+(531, 'nameTwmWRS0 Z', 'headerZ XKJ1', 'footerw4xBTz4Cw 4bD')
+(532, 'name1', 'header1', 'footer1')
+(534, 'name1', 'header1', 'footer1')
+(535, 'name', 'header ', 'footert APtnqU Ibl N')
+(536, 'name1', 'header 1', 'footer1')
+(537, 'name1', 'header 1', 'footer1')
+(539, 'name', 'header', 'footer')
+(540, 'name', 'header', 'footer')
+(541, 'name', 'header', 'footer')
+(542, 'name', 'header', 'footer')
+(543, 'name', 'header', 'footer')
+(544, 'name', 'header', 'footer')
+(545, 'name', 'header', 'footer')</msg>
+<msg timestamp="20201126 18:56:22.351" level="INFO">${new_list} = [500:For Add a Contact:For Add a Contact:, 502:name rmzJk7:header5JIdj:footere  s3CsAYTKTfz, 503:namemV La h:headerXIU7MPxwMO:footerBO1N19Ea7, 504:nameXs:header EM:footer6sC dGnsE, 507:Edited Group:he...</msg>
+<status status="PASS" starttime="20201126 18:56:22.349" endtime="20201126 18:56:22.351"></status>
+</kw>
+<kw name="Append To List" library="Collections">
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<arguments>
+<arg>${old_list}</arg>
+<arg>${group}</arg>
+</arguments>
+<status status="PASS" starttime="20201126 18:56:22.352" endtime="20201126 18:56:22.352"></status>
+</kw>
+<kw name="Group Lists Should Be Equal" library="rf.AddressBook">
+<arguments>
+<arg>${new_list}</arg>
+<arg>${old_list}</arg>
+</arguments>
+<status status="PASS" starttime="20201126 18:56:22.352" endtime="20201126 18:56:22.353"></status>
+</kw>
+<status status="PASS" starttime="20201126 18:56:21.521" endtime="20201126 18:56:22.353" critical="yes"></status>
+</test>
+<test id="s1-t2" name="Delete group">
+<kw name="Get Group List" library="rf.AddressBook">
+<assign>
+<var>${old_list}</var>
+</assign>
+<msg timestamp="20201126 18:56:22.355" level="INFO">(500, 'For Add a Contact', 'For Add a Contact', '')
+(502, 'name rmzJk7', 'header5JIdj', 'footere  s3CsAYTKTfz')
+(503, 'namemV La h', 'headerXIU7MPxwMO', 'footerBO1N19Ea7')
+(504, 'nameXs', 'header EM', 'footer6sC dGnsE')
+(507, 'Edited Group', 'headerb', 'footerdtGL  9Lc mrEL ')
+(508, 'name 4C4 0', 'headerA6Jav 14fVh CZt', 'footer7r  ')
+(509, 'name', 'header7Ooce6OEfCzu', 'footerYZkMK W')
+(510, 'nameY 5 X6a m', 'headersb 8k ZHUVL ekV', 'footerSJWYGtU1Fodry  q')
+(511, 'name', 'header ', 'footert APtnqU Ibl N')
+(512, 'name1', 'header1', 'footer1')
+(513, 'name2', 'header2', 'footer2')
+(514, 'name1', 'header1', 'footer1')
+(515, 'name2', 'header2', 'footer2')
+(517, 'name2', 'header2', 'footer2')
+(518, 'name1', 'header1', 'footer1')
+(520, 'name1', 'header1', 'footer1')
+(521, 'name2', 'header2', 'footer2')
+(522, 'name1', 'header1', 'footer1')
+(523, 'name2', 'header2', 'footer2')
+(524, 'name1', 'header1', 'footer1')
+(525, 'name1', 'header1', 'footer1')
+(526, '', '', '')
+(527, 'name rmzJk7', 'header5JIdj', 'footere  s3CsAYTKTfz')
+(528, 'namemV La h', 'headerXIU7MPxwMO', 'footerBO1N19Ea7')
+(529, 'nameXs', 'header EM', 'footer6sC dGnsE')
+(530, 'namel', 'headerhkm G03AR538G9R', 'footerx Iat SSzQeekkuK39 ')
+(531, 'nameTwmWRS0 Z', 'headerZ XKJ1', 'footerw4xBTz4Cw 4bD')
+(532, 'name1', 'header1', 'footer1')
+(534, 'name1', 'header1', 'footer1')
+(535, 'name', 'header ', 'footert APtnqU Ibl N')
+(536, 'name1', 'header 1', 'footer1')
+(537, 'name1', 'header 1', 'footer1')
+(539, 'name', 'header', 'footer')
+(540, 'name', 'header', 'footer')
+(541, 'name', 'header', 'footer')
+(542, 'name', 'header', 'footer')
+(543, 'name', 'header', 'footer')
+(544, 'name', 'header', 'footer')
+(545, 'name', 'header', 'footer')</msg>
+<msg timestamp="20201126 18:56:22.355" level="INFO">${old_list} = [500:For Add a Contact:For Add a Contact:, 502:name rmzJk7:header5JIdj:footere  s3CsAYTKTfz, 503:namemV La h:headerXIU7MPxwMO:footerBO1N19Ea7, 504:nameXs:header EM:footer6sC dGnsE, 507:Edited Group:he...</msg>
+<status status="PASS" starttime="20201126 18:56:22.353" endtime="20201126 18:56:22.355"></status>
+</kw>
+<kw name="Get Length" library="BuiltIn">
+<doc>Returns and logs the length of the given item as an integer.</doc>
+<arguments>
+<arg>${old_list}</arg>
+</arguments>
+<assign>
+<var>${len}</var>
+</assign>
+<msg timestamp="20201126 18:56:22.355" level="INFO">Length is 39</msg>
+<msg timestamp="20201126 18:56:22.355" level="INFO">${len} = 39</msg>
+<status status="PASS" starttime="20201126 18:56:22.355" endtime="20201126 18:56:22.355"></status>
+</kw>
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<arguments>
+<arg>random.randrange(${len})</arg>
+<arg>random</arg>
+</arguments>
+<assign>
+<var>${index}</var>
+</assign>
+<msg timestamp="20201126 18:56:22.356" level="INFO">${index} = 37</msg>
+<status status="PASS" starttime="20201126 18:56:22.356" endtime="20201126 18:56:22.356"></status>
+</kw>
+<kw name="Get From List" library="Collections">
+<doc>Returns the value specified with an ``index`` from ``list``.</doc>
+<arguments>
+<arg>${old_list}</arg>
+<arg>${index}</arg>
+</arguments>
+<assign>
+<var>${group}</var>
+</assign>
+<msg timestamp="20201126 18:56:22.356" level="INFO">${group} = 544:name:header:footer</msg>
+<status status="PASS" starttime="20201126 18:56:22.356" endtime="20201126 18:56:22.356"></status>
+</kw>
+<kw name="Delete Group" library="rf.AddressBook">
+<arguments>
+<arg>${group}</arg>
+</arguments>
+<status status="PASS" starttime="20201126 18:56:22.356" endtime="20201126 18:56:22.666"></status>
+</kw>
+<kw name="Get Group List" library="rf.AddressBook">
+<assign>
+<var>${new_list}</var>
+</assign>
+<msg timestamp="20201126 18:56:22.669" level="INFO">(500, 'For Add a Contact', 'For Add a Contact', '')
+(502, 'name rmzJk7', 'header5JIdj', 'footere  s3CsAYTKTfz')
+(503, 'namemV La h', 'headerXIU7MPxwMO', 'footerBO1N19Ea7')
+(504, 'nameXs', 'header EM', 'footer6sC dGnsE')
+(507, 'Edited Group', 'headerb', 'footerdtGL  9Lc mrEL ')
+(508, 'name 4C4 0', 'headerA6Jav 14fVh CZt', 'footer7r  ')
+(509, 'name', 'header7Ooce6OEfCzu', 'footerYZkMK W')
+(510, 'nameY 5 X6a m', 'headersb 8k ZHUVL ekV', 'footerSJWYGtU1Fodry  q')
+(511, 'name', 'header ', 'footert APtnqU Ibl N')
+(512, 'name1', 'header1', 'footer1')
+(513, 'name2', 'header2', 'footer2')
+(514, 'name1', 'header1', 'footer1')
+(515, 'name2', 'header2', 'footer2')
+(517, 'name2', 'header2', 'footer2')
+(518, 'name1', 'header1', 'footer1')
+(520, 'name1', 'header1', 'footer1')
+(521, 'name2', 'header2', 'footer2')
+(522, 'name1', 'header1', 'footer1')
+(523, 'name2', 'header2', 'footer2')
+(524, 'name1', 'header1', 'footer1')
+(525, 'name1', 'header1', 'footer1')
+(526, '', '', '')
+(527, 'name rmzJk7', 'header5JIdj', 'footere  s3CsAYTKTfz')
+(528, 'namemV La h', 'headerXIU7MPxwMO', 'footerBO1N19Ea7')
+(529, 'nameXs', 'header EM', 'footer6sC dGnsE')
+(530, 'namel', 'headerhkm G03AR538G9R', 'footerx Iat SSzQeekkuK39 ')
+(531, 'nameTwmWRS0 Z', 'headerZ XKJ1', 'footerw4xBTz4Cw 4bD')
+(532, 'name1', 'header1', 'footer1')
+(534, 'name1', 'header1', 'footer1')
+(535, 'name', 'header ', 'footert APtnqU Ibl N')
+(536, 'name1', 'header 1', 'footer1')
+(537, 'name1', 'header 1', 'footer1')
+(539, 'name', 'header', 'footer')
+(540, 'name', 'header', 'footer')
+(541, 'name', 'header', 'footer')
+(542, 'name', 'header', 'footer')
+(543, 'name', 'header', 'footer')
+(545, 'name', 'header', 'footer')</msg>
+<msg timestamp="20201126 18:56:22.669" level="INFO">${new_list} = [500:For Add a Contact:For Add a Contact:, 502:name rmzJk7:header5JIdj:footere  s3CsAYTKTfz, 503:namemV La h:headerXIU7MPxwMO:footerBO1N19Ea7, 504:nameXs:header EM:footer6sC dGnsE, 507:Edited Group:he...</msg>
+<status status="PASS" starttime="20201126 18:56:22.666" endtime="20201126 18:56:22.669"></status>
+</kw>
+<kw name="Remove Values From List" library="Collections">
+<doc>Removes all occurrences of given ``values`` from ``list``.</doc>
+<arguments>
+<arg>${old_list}</arg>
+<arg>${group}</arg>
+</arguments>
+<status status="PASS" starttime="20201126 18:56:22.670" endtime="20201126 18:56:22.670"></status>
+</kw>
+<kw name="Group Lists Should Be Equal" library="rf.AddressBook">
+<arguments>
+<arg>${new_list}</arg>
+<arg>${old_list}</arg>
+</arguments>
+<status status="PASS" starttime="20201126 18:56:22.670" endtime="20201126 18:56:22.671"></status>
+</kw>
+<status status="PASS" starttime="20201126 18:56:22.353" endtime="20201126 18:56:22.671" critical="yes"></status>
+</test>
+<test id="s1-t3" name="Edit group">
+<kw name="Get Group List" library="rf.AddressBook">
+<assign>
+<var>${old_list}</var>
+</assign>
+<msg timestamp="20201126 18:56:22.673" level="INFO">(500, 'For Add a Contact', 'For Add a Contact', '')
+(502, 'name rmzJk7', 'header5JIdj', 'footere  s3CsAYTKTfz')
+(503, 'namemV La h', 'headerXIU7MPxwMO', 'footerBO1N19Ea7')
+(504, 'nameXs', 'header EM', 'footer6sC dGnsE')
+(507, 'Edited Group', 'headerb', 'footerdtGL  9Lc mrEL ')
+(508, 'name 4C4 0', 'headerA6Jav 14fVh CZt', 'footer7r  ')
+(509, 'name', 'header7Ooce6OEfCzu', 'footerYZkMK W')
+(510, 'nameY 5 X6a m', 'headersb 8k ZHUVL ekV', 'footerSJWYGtU1Fodry  q')
+(511, 'name', 'header ', 'footert APtnqU Ibl N')
+(512, 'name1', 'header1', 'footer1')
+(513, 'name2', 'header2', 'footer2')
+(514, 'name1', 'header1', 'footer1')
+(515, 'name2', 'header2', 'footer2')
+(517, 'name2', 'header2', 'footer2')
+(518, 'name1', 'header1', 'footer1')
+(520, 'name1', 'header1', 'footer1')
+(521, 'name2', 'header2', 'footer2')
+(522, 'name1', 'header1', 'footer1')
+(523, 'name2', 'header2', 'footer2')
+(524, 'name1', 'header1', 'footer1')
+(525, 'name1', 'header1', 'footer1')
+(526, '', '', '')
+(527, 'name rmzJk7', 'header5JIdj', 'footere  s3CsAYTKTfz')
+(528, 'namemV La h', 'headerXIU7MPxwMO', 'footerBO1N19Ea7')
+(529, 'nameXs', 'header EM', 'footer6sC dGnsE')
+(530, 'namel', 'headerhkm G03AR538G9R', 'footerx Iat SSzQeekkuK39 ')
+(531, 'nameTwmWRS0 Z', 'headerZ XKJ1', 'footerw4xBTz4Cw 4bD')
+(532, 'name1', 'header1', 'footer1')
+(534, 'name1', 'header1', 'footer1')
+(535, 'name', 'header ', 'footert APtnqU Ibl N')
+(536, 'name1', 'header 1', 'footer1')
+(537, 'name1', 'header 1', 'footer1')
+(539, 'name', 'header', 'footer')
+(540, 'name', 'header', 'footer')
+(541, 'name', 'header', 'footer')
+(542, 'name', 'header', 'footer')
+(543, 'name', 'header', 'footer')
+(545, 'name', 'header', 'footer')</msg>
+<msg timestamp="20201126 18:56:22.673" level="INFO">${old_list} = [500:For Add a Contact:For Add a Contact:, 502:name rmzJk7:header5JIdj:footere  s3CsAYTKTfz, 503:namemV La h:headerXIU7MPxwMO:footerBO1N19Ea7, 504:nameXs:header EM:footer6sC dGnsE, 507:Edited Group:he...</msg>
+<status status="PASS" starttime="20201126 18:56:22.672" endtime="20201126 18:56:22.673"></status>
+</kw>
+<kw name="Get Length" library="BuiltIn">
+<doc>Returns and logs the length of the given item as an integer.</doc>
+<arguments>
+<arg>${old_list}</arg>
+</arguments>
+<assign>
+<var>${len}</var>
+</assign>
+<msg timestamp="20201126 18:56:22.674" level="INFO">Length is 38</msg>
+<msg timestamp="20201126 18:56:22.674" level="INFO">${len} = 38</msg>
+<status status="PASS" starttime="20201126 18:56:22.674" endtime="20201126 18:56:22.674"></status>
+</kw>
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<arguments>
+<arg>random.randrange(${len})</arg>
+<arg>random</arg>
+</arguments>
+<assign>
+<var>${index}</var>
+</assign>
+<msg timestamp="20201126 18:56:22.674" level="INFO">${index} = 22</msg>
+<status status="PASS" starttime="20201126 18:56:22.674" endtime="20201126 18:56:22.674"></status>
+</kw>
+<kw name="Get From List" library="Collections">
+<doc>Returns the value specified with an ``index`` from ``list``.</doc>
+<arguments>
+<arg>${old_list}</arg>
+<arg>${index}</arg>
+</arguments>
+<assign>
+<var>${group}</var>
+</assign>
+<msg timestamp="20201126 18:56:22.675" level="INFO">${group} = 527:name rmzJk7:header5JIdj:footere  s3CsAYTKTfz</msg>
+<status status="PASS" starttime="20201126 18:56:22.675" endtime="20201126 18:56:22.675"></status>
+</kw>
+<kw name="New Group" library="rf.AddressBook">
+<arguments>
+<arg>name1</arg>
+<arg>header1</arg>
+<arg>footer1</arg>
+</arguments>
+<assign>
+<var>${new_group}</var>
+</assign>
+<msg timestamp="20201126 18:56:22.676" level="INFO">${new_group} = None:name1:header1:footer1</msg>
+<status status="PASS" starttime="20201126 18:56:22.675" endtime="20201126 18:56:22.676"></status>
+</kw>
+<kw name="Edit Group" library="rf.AddressBook">
+<arguments>
+<arg>${group}</arg>
+<arg>${new_group}</arg>
+</arguments>
+<status status="PASS" starttime="20201126 18:56:22.676" endtime="20201126 18:56:23.425"></status>
+</kw>
+<kw name="Get Group List" library="rf.AddressBook">
+<assign>
+<var>${new_list}</var>
+</assign>
+<msg timestamp="20201126 18:56:23.429" level="INFO">(500, 'For Add a Contact', 'For Add a Contact', '')
+(502, 'name rmzJk7', 'header5JIdj', 'footere  s3CsAYTKTfz')
+(503, 'namemV La h', 'headerXIU7MPxwMO', 'footerBO1N19Ea7')
+(504, 'nameXs', 'header EM', 'footer6sC dGnsE')
+(507, 'Edited Group', 'headerb', 'footerdtGL  9Lc mrEL ')
+(508, 'name 4C4 0', 'headerA6Jav 14fVh CZt', 'footer7r  ')
+(509, 'name', 'header7Ooce6OEfCzu', 'footerYZkMK W')
+(510, 'nameY 5 X6a m', 'headersb 8k ZHUVL ekV', 'footerSJWYGtU1Fodry  q')
+(511, 'name', 'header ', 'footert APtnqU Ibl N')
+(512, 'name1', 'header1', 'footer1')
+(513, 'name2', 'header2', 'footer2')
+(514, 'name1', 'header1', 'footer1')
+(515, 'name2', 'header2', 'footer2')
+(517, 'name2', 'header2', 'footer2')
+(518, 'name1', 'header1', 'footer1')
+(520, 'name1', 'header1', 'footer1')
+(521, 'name2', 'header2', 'footer2')
+(522, 'name1', 'header1', 'footer1')
+(523, 'name2', 'header2', 'footer2')
+(524, 'name1', 'header1', 'footer1')
+(525, 'name1', 'header1', 'footer1')
+(526, '', '', '')
+(527, 'name1', 'header1', 'footer1')
+(528, 'namemV La h', 'headerXIU7MPxwMO', 'footerBO1N19Ea7')
+(529, 'nameXs', 'header EM', 'footer6sC dGnsE')
+(530, 'namel', 'headerhkm G03AR538G9R', 'footerx Iat SSzQeekkuK39 ')
+(531, 'nameTwmWRS0 Z', 'headerZ XKJ1', 'footerw4xBTz4Cw 4bD')
+(532, 'name1', 'header1', 'footer1')
+(534, 'name1', 'header1', 'footer1')
+(535, 'name', 'header ', 'footert APtnqU Ibl N')
+(536, 'name1', 'header 1', 'footer1')
+(537, 'name1', 'header 1', 'footer1')
+(539, 'name', 'header', 'footer')
+(540, 'name', 'header', 'footer')
+(541, 'name', 'header', 'footer')
+(542, 'name', 'header', 'footer')
+(543, 'name', 'header', 'footer')
+(545, 'name', 'header', 'footer')</msg>
+<msg timestamp="20201126 18:56:23.429" level="INFO">${new_list} = [500:For Add a Contact:For Add a Contact:, 502:name rmzJk7:header5JIdj:footere  s3CsAYTKTfz, 503:namemV La h:headerXIU7MPxwMO:footerBO1N19Ea7, 504:nameXs:header EM:footer6sC dGnsE, 507:Edited Group:he...</msg>
+<status status="PASS" starttime="20201126 18:56:23.425" endtime="20201126 18:56:23.429"></status>
+</kw>
+<kw name="List Should Contain Value" library="Collections">
+<doc>Fails if the ``value`` is not found from ``list``.</doc>
+<arguments>
+<arg>${new_list}</arg>
+<arg>${new_group}</arg>
+</arguments>
+<status status="PASS" starttime="20201126 18:56:23.429" endtime="20201126 18:56:23.430"></status>
+</kw>
+<kw name="List Should Not Contain Value" library="Collections">
+<doc>Fails if the ``value`` is found from ``list``.</doc>
+<arguments>
+<arg>${new_list}</arg>
+<arg>${group}</arg>
+</arguments>
+<status status="PASS" starttime="20201126 18:56:23.430" endtime="20201126 18:56:23.432"></status>
+</kw>
+<kw name="Group Lists Len Should Be Equal" library="rf.AddressBook">
+<arguments>
+<arg>${new_list}</arg>
+<arg>${old_list}</arg>
+</arguments>
+<status status="PASS" starttime="20201126 18:56:23.432" endtime="20201126 18:56:23.433"></status>
+</kw>
+<status status="PASS" starttime="20201126 18:56:22.671" endtime="20201126 18:56:23.433" critical="yes"></status>
+</test>
+<kw name="Destroy Fixtures" library="rf.AddressBook" type="teardown">
+<status status="PASS" starttime="20201126 18:56:23.435" endtime="20201126 18:56:23.585"></status>
+</kw>
+<status status="PASS" starttime="20201126 18:56:14.546" endtime="20201126 18:56:23.586"></status>
 </suite>
 <statistics>
 <total>
-<stat pass="0" fail="1">Critical Tests</stat>
-<stat pass="0" fail="1">All Tests</stat>
+<stat pass="3" fail="0">Critical Tests</stat>
+<stat pass="3" fail="0">All Tests</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat pass="0" fail="1" id="s1" name="Group Scenarios">Group Scenarios</stat>
+<stat pass="3" fail="0" id="s1" name="Group Scenarios">Group Scenarios</stat>
 </suite>
 </statistics>
 <errors>
-<msg timestamp="20201126 10:11:05.010" level="ERROR">Error in file '/Users/v.rehemae/PycharmProjects/python_trening/rf/group_scenarios.robot' on line 2: Importing test library 'rf.AddressBook' failed: ModuleNotFoundError: No module named 'rf'
-Traceback (most recent call last):
-  None
-PYTHONPATH:
-  /Library/Frameworks/Python.framework/Versions/3.8/bin
-  /Library/Frameworks/Python.framework/Versions/3.8/lib/python38.zip
-  /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8
-  /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/lib-dynload
-  /Users/v.rehemae/Library/Python/3.8/lib/python/site-packages
-  /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages</msg>
 </errors>
 </robot>
