@@ -8,7 +8,7 @@ def test_add_contact_to_group(app, orm):
     if len(app.contact.get_contact_list()) == 0:
         app.contact.create_new_contact(Contact(firstname="For Add to Group", lastname="For Add to Group"))
     if len(app.group.get_group_list()) == 0:
-        app.group.create(Group(name="For Add a Contact", header="For Add a Contact"))
+        app.group.create(Group(name="For Add a Contacttt", header="For Add a Contact"))
     all_contacts = orm.get_contact_list()
     contact = random.choice(all_contacts)
     group_without_contacts = orm.get_groups_not_containing_contact(contact)
